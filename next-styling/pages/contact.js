@@ -1,9 +1,7 @@
+import styles from "../styles/Contact.module.scss"
+
 const Contact = () => {
-  return (
-    <div>
-      <h2>Contact Page</h2>
-    </div>
-  )
+  return <div className={styles.highlightscss}></div>
 }
 
 export default Contact
