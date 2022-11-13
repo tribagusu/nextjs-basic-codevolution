@@ -1,8 +1,16 @@
-import React from "react"
+import Head from "next/head"
 import Footer from "../components/Footer"
 
 const About = () => {
-  return <h1 className="content">About</h1>
+  return (
+    <>
+      <Head>
+        <title>About next js misc</title>
+        <meta name="description" content="tutorials" />
+      </Head>
+      <h1 className="content">About</h1>
+    </>
+  )
 }
 
 export default About
